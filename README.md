@@ -1,14 +1,21 @@
 .
 
-📊 Global Employment Analysis (2010–2023)
-📌 Overview
+🌍 Global Employment Analysis (2010–2023)
+📌 Project Description
 
-This project performs Exploratory Data Analysis (EDA) on a synthetic multi-country economic indicators dataset spanning 2010–2023.
-The goal is to analyze trends and compare countries using key macro-economic variables.
+This project performs Exploratory Data Analysis (EDA) on a synthetic multi-country economic indicators dataset covering the period 2010–2023.
 
-⚠️ Note
-The dataset is synthetically generated and does not represent real-world economic data.
-This project is created only for learning and demonstration purposes.
+The objective is to analyze and compare employment, unemployment, GDP growth, inflation, interest rates, and stock market trends across different countries using Python.
+
+This project is created only for learning, practice, and demonstration purposes.
+
+⚠️ Disclaimer
+
+The dataset is randomly generated
+
+It does not represent real-world economic data
+
+Results and insights must not be used for financial, policy, or research decisions
 
 🗂 Dataset Information
 
@@ -16,36 +23,34 @@ Total Rows: 500
 
 Total Columns: 8
 
-Columns
+Time Frequency: Monthly
 
-Date – Monthly dates
+Time Range: 2010–2023
 
-Country – Country names
-
-Inflation Rate (%)
-
-GDP Growth Rate (%)
-
-Unemployment Rate (%)
-
-Employment Rate (%)
-
-Interest Rate (%)
-
-Stock Index Value
-
-🛠 Tools & Technologies
+📄 Dataset Columns
+Column	Description
+Date	Monthly date
+Country	Country name
+Inflation Rate (%)	Inflation percentage
+GDP Growth Rate (%)	GDP growth percentage
+Unemployment Rate (%)	Unemployment percentage
+Employment Rate (%)	Employment percentage
+Interest Rate (%)	Interest rate
+Stock Index Value	Stock market index value
+🛠 Tools & Libraries Used
 
 Python
 
-Pandas – Data loading, cleaning, aggregation
+Pandas
 
-Matplotlib – Data visualization
+Matplotlib
 
-Jupyter Notebook / VS Code
+Jupyter Notebook
+
+VS Code
 
 📈 Analysis Performed
-1. Unemployment Analysis
+Unemployment Analysis
 
 Top 5 countries with highest average unemployment
 
@@ -53,35 +58,35 @@ Top 5 countries with lowest average unemployment
 
 Global unemployment trend over time
 
-2. Employment Analysis
+Employment Analysis
 
 Average employment rate by country
 
 Country-wise employment comparison
 
-3. GDP Growth Analysis
+GDP Growth Analysis
 
 Countries with highest average GDP growth
 
 Countries with lowest average GDP growth
 
-4. Stock Market Analysis
+Stock Market Analysis
 
 Countries with the highest peak stock index values
 
-5. Global Trends
+Global Trend Analysis
 
-Combined trend of average unemployment vs inflation over time
+Average unemployment vs inflation trend over time
 
 📊 Visualizations
 
-Line plots:
+Line plots for:
 
 Global unemployment trend
 
 Global inflation trend
 
-Bar charts:
+Bar charts for:
 
 Average employment rate by country
 
@@ -91,27 +96,26 @@ All visualizations are created using Matplotlib.
 
 🔍 Key Insights
 
-United Kingdom shows the highest average unemployment, followed by the USA.
+United Kingdom shows the highest average unemployment
 
-Germany and China demonstrate strong employment stability.
+USA follows closely in unemployment levels
 
-Japan records the highest average GDP growth.
+Germany and China show strong employment stability
 
-Canada and USA show comparatively lower GDP growth.
+Japan records the highest average GDP growth
 
-France achieves the highest peak stock index value in the dataset.
+Canada and USA show comparatively lower GDP growth
+
+France achieves the highest peak stock index value
 
 📁 Project Structure
+Global_Employment_Analysis/
+│
 ├── economic_indicators_dataset_2010_2023.csv
 ├── analysis.ipynb
 ├── README.md
 
-⚠️ Disclaimer
-
-This dataset is randomly generated and does not reflect real economic conditions.
-The insights from this project must not be used for financial, policy, or research decisions.
-
 👤 Author
 
 Vivek Santosh Dubey
-Data Analysis | Python | Pandas | Data Visualization
+Data Analysis | Python | Pandas | Visualization
