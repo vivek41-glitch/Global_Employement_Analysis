@@ -1,26 +1,26 @@
-
 .
 
-📊 Global_Employement_Analysis (2010–2023)
-📌 Project Overview
+📊 Global Employment Analysis (2010–2023)
+📌 Overview
 
-This project performs exploratory data analysis (EDA) on a multi-country economic indicators dataset covering the period 2010–2023.
-The analysis focuses on understanding trends and comparisons across countries using key macro-economic variables such as unemployment, inflation, GDP growth, employment rate, interest rate, and stock market index values.
+This project performs Exploratory Data Analysis (EDA) on a synthetic multi-country economic indicators dataset spanning 2010–2023.
+The goal is to analyze trends and compare countries using key macro-economic variables.
 
-⚠️ Important:
-The dataset used here is synthetically generated and does not represent real-world economic data.
-This project is strictly for learning, practice, and demonstration purposes.
+⚠️ Note
+The dataset is synthetically generated and does not represent real-world economic data.
+This project is created only for learning and demonstration purposes.
 
-🗂 Dataset Description
+🗂 Dataset Information
 
 Total Rows: 500
+
 Total Columns: 8
 
 Columns
 
-Date – Monthly date 
+Date – Monthly dates
 
-Country – Countries names
+Country – Country names
 
 Inflation Rate (%)
 
@@ -34,18 +34,18 @@ Interest Rate (%)
 
 Stock Index Value
 
-🛠 Tools & Libraries Used
+🛠 Tools & Technologies
 
 Python
 
-Pandas – data loading, cleaning, grouping, aggregation
+Pandas – Data loading, cleaning, aggregation
 
-Matplotlib – data visualization
+Matplotlib – Data visualization
 
 Jupyter Notebook / VS Code
 
 📈 Analysis Performed
-1️⃣ Unemployment Analysis
+1. Unemployment Analysis
 
 Top 5 countries with highest average unemployment
 
@@ -53,62 +53,65 @@ Top 5 countries with lowest average unemployment
 
 Global unemployment trend over time
 
-2️⃣ Employment Analysis
+2. Employment Analysis
 
 Average employment rate by country
 
 Country-wise employment comparison
 
-3️⃣ GDP Growth Analysis
+3. GDP Growth Analysis
 
 Countries with highest average GDP growth
 
 Countries with lowest average GDP growth
 
-4️⃣ Stock Market Analysis
+4. Stock Market Analysis
 
 Countries with the highest peak stock index values
 
-5️⃣ Global Trends
+5. Global Trends
 
 Combined trend of average unemployment vs inflation over time
 
 📊 Visualizations
 
-Line plots for global unemployment & inflation trends
+Line plots:
 
-Bar charts for:
+Global unemployment trend
+
+Global inflation trend
+
+Bar charts:
 
 Average employment rate by country
 
 Country-wise economic comparisons
 
-All visualizations are generated using Matplotlib.
+All visualizations are created using Matplotlib.
 
 🔍 Key Insights
 
-The United Kingdom shows the highest average unemployment rate, followed by the USA.
+United Kingdom shows the highest average unemployment, followed by the USA.
 
-Germany and China display strong employment stability with high employment rates.
+Germany and China demonstrate strong employment stability.
 
-Japan leads in average GDP growth among the countries analyzed.
+Japan records the highest average GDP growth.
 
-Canada and the USA record comparatively lower GDP growth.
+Canada and USA show comparatively lower GDP growth.
 
-France achieved the highest peak stock index value in the dataset.
+France achieves the highest peak stock index value in the dataset.
 
 📁 Project Structure
 ├── economic_indicators_dataset_2010_2023.csv
 ├── analysis.ipynb
 ├── README.md
 
-
 ⚠️ Disclaimer
 
 This dataset is randomly generated and does not reflect real economic conditions.
-The insights derived from this analysis should not be used for financial, policy, or research decisions.
+The insights from this project must not be used for financial, policy, or research decisions.
 
 👤 Author
 
 Vivek Santosh Dubey
-Data Analysis | Python | Pandas | Visualization
+Data Analysis | Python | Pandas | Data Visualization
